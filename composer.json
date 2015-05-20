@@ -1,0 +1,28 @@
+{
+  "name": "bytepark/migrationServiceProvider",
+  "type": "library",
+  "description": "Silex provider for the bytepark lib-migration database migration library.",
+  "keywords": ["library, database, migration, devops"],
+  "homepage": "http://www.bytepark.de",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bytepark GmbH",
+      "email": "code@bytepark.de"
+    }
+  ],
+  "require": {
+    "bytepark/lib-migration" : "~1.0",
+    "silex/silex": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bytepark\\Silex\\" : "src/",
+      "Bytepark\\Test\\Silex\\" : "test/"
+    }
+  },
+  "suggest": {
+    "igorw/config-service-provider" : "~1.0"
+  }
+}
+

@@ -1,0 +1,10 @@
+# some ides - namely Eclipse and PhpStorm
+.project
+.buildpath
+.settings
+.externalToolBuilders
+.idea
+
+composer.phar
+
+vendor
